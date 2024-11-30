@@ -25,4 +25,33 @@ public class PracticeProblems {
         return reversed;
     }
 
+    public static double sumGrid(double[][] grid)
+    {
+        double sum = 0;
+
+        for (int i = 0; i < grid.length; i++)
+        {
+            for (int j = 0; j < grid[i].length; j++)
+            {
+                sum += grid[i][i];
+            }
+        }
+        return sum;
+    }
+
+    public static int fib(int n)
+    {
+        int a = 0;
+        int b = 1;
+
+        for (int i = 2; i <= n; i++)
+        {
+            int sum = a + b;
+            a = b;
+            b = sum;
+
+        }
+        return b;
+    }
+
 }
