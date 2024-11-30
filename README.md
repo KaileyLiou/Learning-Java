@@ -1,3 +1,3 @@
 # Learning-Java
 
-[java] (https://github.com/SciBorgs/SciGuides/blob/main/projects/intro-to-programming/README.md)
+[guide] (https://github.com/SciBorgs/SciGuides/blob/main/projects/intro-to-programming/README.md)
