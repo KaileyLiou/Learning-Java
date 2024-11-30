@@ -24,8 +24,8 @@ public class Main {
 
 		// Practice Problem 4
 
-		int n = 5;
-		System.out.println(PracticeProblems.fib(n));
+		// int n = 5;
+		// System.out.println(PracticeProblems.fib(n));
 
     }
 }
