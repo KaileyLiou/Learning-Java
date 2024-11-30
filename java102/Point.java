@@ -43,4 +43,12 @@ public class Point {
     
         return new Point(avgOfX, avgOfY);
     }
+
+    public double angle()
+    {
+        double angleInRadians = Math.atan2(y, x);
+        double angleInDegrees = Math.toDegrees(angleInRadians);
+        
+        return angleInDegrees;
+    }
 }
