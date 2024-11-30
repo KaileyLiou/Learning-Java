@@ -26,4 +26,21 @@ public class Point {
     public static double distance(Point p1, Point p2) {
 		return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2));
 	}
+
+    public static Point centerOfMass(Point[] points)
+    {
+        double sumOfX = 0;
+        double sumOfY = 0;
+
+        for (int i = 0; i < points.length; i++)
+        {
+            sumOfX += points[i].x;
+            sumOfY += points[i].y;
+        }
+
+        double avgOfX = sumOfX / points.length;
+        double avgOfY = sumOfY / points.length;
+    
+        return new Point(avgOfX, avgOfY);
+    }
 }
